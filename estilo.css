@@ -355,7 +355,7 @@ li{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 30%;
+    height: 70vh;
 }
 
 .simbolo-cita{
@@ -374,11 +374,37 @@ li{
     width: 600px;
     font-size: 135%;
     padding-bottom: 45px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .nombre-cita{
     font-size: 120%;
-    font-weight: 600;
-    padding-bottom: 25px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.titulo-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 70px;
+    padding-top: 120px;
+}
+
+.descripcion-proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.descripcion-p{
+    text-align: center;
+    width: 400px;
+    padding-top: 30px;
 }
