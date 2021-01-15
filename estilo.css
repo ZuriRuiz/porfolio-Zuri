@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+
+body{
+    box-shadow: inset -10px 0 25px lightgray;
+}
+
+
+
+
+.header-nav{
+    color: black;
+    text-decoration: none;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.header-nav:hover{
+    color: #8338ec;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.boton-contacto{
+    text-align: center;
+    background-color: #8338ec;    
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 5px;
+    height: 5px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+.boton-contacto:hover{
+    text-align: center;
+    background-color:#995cef;    
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 5px;
+    height: 5px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    background-color:white;
+    height: 100px;
+    box-shadow : 2px 0px 20px lightgray;
+    
+}
+
+ul{
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-left: 600px;
+}
+
+li{
+    margin-right: 20px;
+    font-size: 110%;
+    font-weight: 400;
+    
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 96px;
+    margin-left: 80px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.saludo{
+    font-size: 30px;
+    font-weight:800;
+    color: #2e2e31;
+}
+
+.nombre{
+    color: #8338ec;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 5px;
+    
+}
+
+.descripcion{
+    font-weight: 400;
+    color: #61617a;
+    margin-top: 20px;
+}
+
+.boton{
+    text-align: center;
+    background-color: #8338ec;    
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    width: 35%;
+    height: 35%;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.boton:hover{
+    text-align: center;
+    background-color: #995cef;    
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.imagen-uno{
+    width: 40%;
+    height: 30%;
+    margin-right: 80px;
+}
+
+
+.titulo-conocimientos{
+    display: flex;
+    background-color: #f6f7fb;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 270px;
+    padding-top: 120px;
+}
+
+
+.descripcion-conocimientos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  #f6f7fb;
+    
+}
+
+.descripcion-c{
+    text-align: center;
+    width: 400px;
+    padding-top: 30px;
+}
+
+
+
+
+.container-conocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f7fb;
+    justify-content: center;
+    padding: 170px;
+}
+
+
+
+.card-uno{
+    width: 258px;
+    height: 227px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-uno:hover{
+    width: 258px;
+    height: 227px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card-dos{
+    width: 258px;
+    height: 227px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+.card-dos:hover{
+    width: 258px;
+    height: 227px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card-tres{
+    width: 258px;
+    height: 227px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-tres:hover{
+    width: 258px;
+    height: 227px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.card-cuatro{
+    width: 258px;
+    height: 227px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-cuatro:hover{
+    width: 258px;
+    height: 227px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card-cinco{
+    width: 258px;
+    height: 227px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-cinco:hover{
+    width: 258px;
+    height: 227px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.card-seis{
+    width: 258px;
+    height: 227px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-seis:hover{
+    width: 258px;
+    height: 227px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
+.icono-html{
+    width: 85px;
+    margin: auto;
+    padding-top: 60px;
+}    
+
+.icono-css{
+    width: 85px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.icono-sass{
+    width: 85px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+
+.icono-java{
+    width: 85px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.icono-react{
+    width: 85px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.icono-git{
+    width: 85px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.texto-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    color: #2e2e31;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.contenedor-cita{
+    display: flex;
+    flex-direction: column;
+    background-color: #8338ec;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+
+.simbolo-cita{
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
+
+.comilla{
+    font-size: 140px;
+    padding-top: 15px;
+}
+
+
+.cita{
+    width: 600px;
+    font-size: 135%;
+    padding-bottom: 45px;
+    font-weight: 400;
+}
+
+.nombre-cita{
+    font-size: 120%;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
