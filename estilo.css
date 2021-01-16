@@ -87,7 +87,7 @@ li{
     
 }
 
-.flex-container{
+.container-introduccion{
     display: flex;
     margin-top: 96px;
     margin-left: 80px;
@@ -174,8 +174,6 @@ li{
 }
 
 
-
-
 .container-conocimientos{
     display: flex;
     flex-wrap: wrap;
@@ -183,7 +181,6 @@ li{
     justify-content: center;
     padding: 170px;
 }
-
 
 
 .card-uno{
@@ -298,7 +295,6 @@ li{
 }
 
 
-
 .icono-html{
     width: 85px;
     margin: auto;
@@ -407,4 +403,126 @@ li{
     text-align: center;
     width: 400px;
     padding-top: 30px;
+}
+
+.container-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    padding-top: 75px;
+    
+}
+
+.card-proyecto-uno{
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.imagen-proyecto-uno{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.texto-proyectos{
+    text-align: center;
+    font-weight: 600;
+    color: #2e2e31;
+    margin-top: 20px;
+}
+
+.card-proyecto-dos{
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.imagen-proyecto-dos{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.card-proyecto-tres{
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.imagen-proyecto-tres{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.card-proyecto-cuatro{
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.imagen-proyecto-cuatro{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+    
+.card-proyectos-cinco{
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+    
+.imagen-proyecto-cinco{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.card-proyecto-seis{
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.imagen-proyecto-seis{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.card-proyecto-siete{
+    
+    width: 335px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 715px;
+    margin-top: 15px;
+}
+
+.imagen-proyecto-siete{
+    padding-left: 35px;
+    padding-top: 20px;
 }
