@@ -424,6 +424,18 @@ li{
     margin-top: 15px;
 }
 
+.card-proyecto-uno:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .imagen-proyecto-uno{
     padding-left: 35px;
     padding-top: 20px;
@@ -446,6 +458,18 @@ li{
     margin-top: 15px;
 }
 
+.card-proyecto-dos:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .imagen-proyecto-dos{
     padding-left: 35px;
     padding-top: 20px;
@@ -459,6 +483,18 @@ li{
     margin: 5px;
     margin-left: 25px;
     margin-top: 15px;
+}
+
+.card-proyecto-tres:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .imagen-proyecto-tres{
@@ -475,6 +511,20 @@ li{
     margin-left: 25px;
     margin-top: 15px;
 }
+
+.card-proyecto-cuatro:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
 .imagen-proyecto-cuatro{
     padding-left: 35px;
     padding-top: 20px;
@@ -489,6 +539,18 @@ li{
     margin: 5px;
     margin-left: 25px;
     margin-top: 15px;
+}
+
+.card-proyectos-cinco:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
 }
     
 .imagen-proyecto-cinco{
@@ -506,13 +568,25 @@ li{
     margin-top: 15px;
 }
 
+.card-proyecto-seis:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
 .imagen-proyecto-seis{
     padding-left: 35px;
     padding-top: 20px;
 }
 
 .card-proyecto-siete{
-    
     width: 335px;
     height: 340px;
     border: 1px solid lightgray;
@@ -522,7 +596,166 @@ li{
     margin-top: 15px;
 }
 
+.card-proyecto-siete:hover{
+    width: 335px;
+    height: 340px;
+    border: 1px solid #8338ec;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 715px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
 .imagen-proyecto-siete{
     padding-left: 35px;
     padding-top: 20px;
 }
+
+
+.color-section-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f6f7fb;
+    margin-top: 10%;
+
+}
+
+.container-contactame{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color:aqua;
+    border-radius: 5px solid black;
+    margin-top: 15%;
+    width: 85vw;
+    height: 85vh;
+}
+
+.contactame{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: left;
+    width: 45%;
+    height: 90%;
+    margin-left: 45px;
+}
+
+.titulo-contactame{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 20px;
+
+}
+
+.descripcion-contactame{
+    margin-top: 20px;
+}
+
+.icono-twitter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 30px;
+    height: 40px;
+    margin-left: 15px;
+    color: #8338ec;
+}
+
+
+.descripcion-icono{
+    margin-left: 8px;
+    font-weight: 400;
+    color: #2e2e31;
+    
+}
+
+
+.icono-linkedin{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    color: #8338ec;
+}
+    
+.icono-github{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    color: #8338ec;
+}
+
+.container-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rosybrown;
+    width: 45%;
+    height: 90%;
+    margin-left: 45px;
+
+}   
+
+.escribeme{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 20px;
+    
+}
+  
+.contenido-formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 95%;
+    height: 90%;
+}
+
+.nombre-uno{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+.nombre-formulario{
+    margin-bottom: 8px;
+    margin-right: 30px;
+    font-weight: 600;
+    
+}
+
+
+.apellido-formulario{
+    margin-bottom: 8px;
+    font-weight: 600;
+
+}
+
+.email{
+    margin-bottom: 200px;
+}
+
+.email-formulario{
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+
