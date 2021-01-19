@@ -627,8 +627,8 @@ li{
 .container-contactame{
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    background-color:aqua;
+    justify-content: space-between;
+    background-color:white;
     border-radius: 5px solid black;
     margin-top: 15%;
     width: 85vw;
@@ -703,59 +703,41 @@ li{
 
 .container-formulario{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rosybrown;
-    width: 45%;
+    flex-direction: column;
+    background-color:white;
+    width: 65%;
     height: 90%;
     margin-left: 45px;
+    
 
 }   
 
+
 .escribeme{
-    font-weight: 800;
-    font-size: 45px;
-    margin-top: 20px;
-    
-}
-  
-.contenido-formulario{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 15px;
-    width: 95%;
-    height: 90%;
+    width: 90px;    
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 8px;
 }
-
-.nombre-uno{
-    display: flex;
-    flex-direction: column;
-    margin-right: 30%;
-}
-
+  
 .nombre-formulario{
-    margin-bottom: 8px;
-    margin-right: 30px;
+    margin-top: 20px;
     font-weight: 600;
-    
 }
-
 
 .apellido-formulario{
-    margin-bottom: 8px;
+    margin-top: 20px;
     font-weight: 600;
-
-}
-
-.email{
-    margin-bottom: 200px;
 }
 
 .email-formulario{
-    margin-bottom: 8px;
+    margin-top: 20px;
     font-weight: 600;
 }
 
-
+.mensaje-formulario{
+    margin-top: 20px;
+    font-weight: 600;
+}
