@@ -659,14 +659,27 @@ li{
 .icono-twitter{
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
-    padding-top: 15px;
-    padding-left: 15px;
-    width: 30px;
-    height: 40px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
     color: #8338ec;
+    align-items: center;
 }
+
+
+
+
+.icono-twitter:hover{
+    background-color: #995cef;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+
 
 
 .descripcion-icono{
@@ -722,22 +735,51 @@ li{
     margin-top: 8px;
 }
   
+input{
+    border-radius: 30px;
+    border-color: #995cef;
+}
+
+
+textarea{
+    border-radius: 15px;
+    border-color: #995cef;
+}
+
+.boton-enviar{
+    background-color: #8338ec;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.boton-enviar:hover{
+    background-color: #995cef;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
 .nombre-formulario{
     margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 
 .apellido-formulario{
     margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 
 .email-formulario{
     margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 
 .mensaje-formulario{
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
