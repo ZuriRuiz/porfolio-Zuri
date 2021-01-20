@@ -659,59 +659,128 @@ li{
 .icono-twitter{
     display: flex;
     flex-direction: row;
+    width: 8%;
+    height: 39px;
+    padding-left: 8px;
+    padding-top: 15px;
     margin-top: 30px;
     margin-left: 25px;
     color: #8338ec;
-    align-items: center;
+    border-radius: 50%;
+    
 }
 
-
-
-
 .icono-twitter:hover{
-    background-color: #995cef;
-    width: 25px;
-    height: 25px;
-    color: #ffffff;
-    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    height: 8%;
+    padding-left: 8px;
+    padding-top: 15px;
+    background-color: #8338ec;
+    margin-top: 30px;
+    margin-left: 25px;
+    color:white;
+    border-radius: 50%;
     cursor: pointer;
     transition: 0.4s;
     
+   
 }
 
-
-
+.devicon-twitter-original{
+    font-size: 15px;
+    text-align: left;
+}
 
 .descripcion-icono{
-    margin-left: 8px;
+    margin-left: 18px;
     font-weight: 400;
     color: #2e2e31;
     
+}
+
+.descripcion-icono:hover{
+    margin-left: 18px;
+    font-weight: 400;
+    color: #8338ec;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 
 .icono-linkedin{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    width: 8%;
+    height: 39px;
+    padding-left: 8px;
     padding-top: 15px;
-    padding-left: 15px;
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
     color: #8338ec;
+    border-radius: 50%;
 }
     
+
+.icono-linkedin:hover{
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    height: 8%;
+    padding-left: 8px;
+    padding-top: 15px;
+    background-color: #8338ec;
+    margin-top: 30px;
+    margin-left: 25px;
+    color:white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.devicon-linkedin-plain{
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
 .icono-github{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    width: 8%;
+    height: 39px;
+    padding-left: 8px;
     padding-top: 15px;
-    padding-left: 15px;
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
     color: #8338ec;
+    border-radius: 50%;
+}
+
+
+.icono-github:hover{
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    height: 8%;
+    padding-left: 8px;
+    padding-top: 15px;
+    background-color: #8338ec;
+    margin-top: 30px;
+    margin-left: 25px;
+    color:white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.devicon-github-original{
+    font-size: 18px;
+    text-align: center;
 }
 
 .container-formulario{
@@ -782,4 +851,66 @@ textarea{
     margin-top: 25px;
     margin-bottom: 10px;
     font-weight: 600;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    background-color:#8338ec;
+    width: 100%;
+    height: 300px;
+}
+
+.texto-footer{
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 70px;
+    font-weight: 400;
+    color: white;
+}
+
+.container-iconos-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#8338ec;
+    margin-top: -10%;
+    
+}
+
+.tamaño-icono-footer{
+    margin-right: 35px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: white;
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    border-radius: 80px;
+    
+    
+}
+
+.tamaño-icono-footer:hover{
+    
+    color:#8338ec;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}    
+
+
+.mensaje-footer{
+    display: grid;
+    place-content: center;
+    margin-top: 70px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.color-corazon{
+    color: red;
 }
