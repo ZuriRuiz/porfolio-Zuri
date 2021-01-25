@@ -914,3 +914,82 @@ textarea{
 .color-corazon{
     color: red;
 }
+
+@media screen and (max-width: 576px){
+    header{
+        display: none;
+        
+    }
+    .container-introduccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+    }
+
+    .saludo{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .nombre{
+        text-align: center;
+        font-size: 40px;
+        
+    }    
+
+    .descripcion{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .boton{
+        
+        margin-left: 100px;
+        width: 100px;
+        height: 15px;
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .imagen-uno{
+        margin-top: 35px;
+        margin-left: 70px;
+        width: 300px;
+    }
+
+    .titulo-conocimientos{
+        font-size: 25px;
+    }
+    
+    .descripcion-c{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-conocimientos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-uno{
+        width: 500px;
+        height: 170px;
+        
+    }
+
+    .icono-html{
+        width: 50px;
+        text-align: center;    
+    }
+
+    .texto-card{
+        font-size: 10px;
+    }
+}
+
