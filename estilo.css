@@ -7,9 +7,7 @@
 }
 
 
-body{
-    box-shadow: inset -10px 0 25px lightgray;
-}
+
 
 
 
@@ -592,7 +590,6 @@ li{
     border: 1px solid lightgray;
     border-radius: 5px;
     margin: 5px;
-    margin-right: 715px;
     margin-top: 15px;
 }
 
@@ -602,7 +599,6 @@ li{
     border: 1px solid #8338ec;
     border-radius: 5px;
     margin: 5px;
-    margin-right: 715px;
     margin-top: 15px;
     cursor: pointer;
     transition: 0.4s;
@@ -627,11 +623,10 @@ li{
 .container-contactame{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     background-color:white;
     border-radius: 5px solid black;
     margin-top: 15%;
-    width: 85vw;
     height: 85vh;
 }
 
@@ -801,18 +796,20 @@ li{
     width: 90px;    
     font-weight: 800;
     font-size: 45px;
-    margin-top: 8px;
+    margin-top: 20px;
 }
   
 input{
     border-radius: 30px;
     border-color: #995cef;
+    outline: none;
 }
 
 
 textarea{
     border-radius: 15px;
     border-color: #995cef;
+    outline: none;
 }
 
 .boton-enviar{
@@ -920,76 +917,181 @@ textarea{
         display: none;
         
     }
+    
+    
     .container-introduccion{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #ffffff;
+        width: 70%;
+        
     }
 
     .saludo{
         text-align: center;
-        font-size: 20px;
-        margin-top: 25px;
+        font-size: 280%;
+        margin-top: 35%;
     }
+    
     .nombre{
         text-align: center;
-        font-size: 40px;
+        font-size: 500%;
         
     }    
 
     .descripcion{
         text-align: center;
-        font-size: 10px;
+        font-size: 130%;
+        
     }
 
     .boton{
-        
-        margin-left: 100px;
-        width: 100px;
+        margin-left: 25%;
+        width: 50%;
         height: 15px;
-        font-size: 10px;
-        font-weight: 600;
+        font-size: 90%;
+        font-weight: 700;
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 8%;
     }
 
     .imagen-uno{
-        margin-top: 35px;
-        margin-left: 70px;
-        width: 300px;
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 130%;
     }
 
     .titulo-conocimientos{
-        font-size: 25px;
+        font-size: 300%;
     }
     
     .descripcion-c{
         font-size: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        font-size: 120%;
+        height: 60%;
+        width: 90%;
+        font-weight: 400;
     }
 
     .container-conocimientos{
         display: flex;
-        flex-wrap: wrap;
+        
+        
     }
 
     .card-uno{
-        width: 500px;
-        height: 170px;
+        
+        width: 95%;
         
     }
 
     .icono-html{
-        width: 50px;
+        width: 30%;
         text-align: center;    
     }
 
     .texto-card{
         font-size: 10px;
+    }
+
+    .card-dos{
+        width: 95%;
+        
+    }
+    
+    .icono-css{
+        width: 50px;
+        text-align: center;
+    }
+
+    .card-tres{
+        width: 95%;
+        
+    }
+
+    .card-cuatro{
+        width: 95%;
+        text-align: center;
+    }
+
+    .icono-sass{
+        width: 50px;
+        text-align: center;
+    }
+
+    .card-cinco{
+        width: 95%;
+        text-align: center;
+    }
+
+    .icono-java{
+        width: 50px;
+        text-align: center;
+    }
+
+    .contenedor-cita{
+        width: 100%;
+        height: 60%;
+    }
+
+    .comilla{
+        width: 10%;
+    }
+
+    .cita{
+        font-size: 140%;
+        width: 70%;
+    }
+
+    .nombre-cita{
+        font-size: 150%;
+    }
+
+    .container-proyectos{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .container-contactame{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25%;
+    }
+
+    .container-formulario{
+        margin-top: 10%;
+    }
+
+    
+    .textarea{
+        margin-bottom: 25%;
+    }
+
+    .container-footer{
+        margin-top: 25%;
+        width: 100%;
+        
+    }
+
+    .texto-footer{
+        margin-top: 15%;
+    }
+
+    .container-iconos-footer{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .texto-footer-dos{
+        text-align: center;
+        font-weight: 800;
+        padding-top: 10%;
+        background-color: #8338ec;
     }
 }
 
