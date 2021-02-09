@@ -931,27 +931,27 @@ textarea{
 
     .saludo{
         text-align: center;
-        font-size: 280%;
+        font-size: 150%;
         margin-top: 35%;
     }
     
     .nombre{
         text-align: center;
-        font-size: 500%;
+        font-size: 400%;
         
     }    
 
     .descripcion{
         text-align: center;
-        font-size: 130%;
+        font-size: 85%;
         
     }
 
     .boton{
-        margin-left: 25%;
-        width: 50%;
-        height: 15px;
-        font-size: 90%;
+        margin-left: 30%;
+        width: 40%;
+        height: 5px;
+        font-size: 75%;
         font-weight: 700;
         text-align: center;
         padding-bottom: 8%;
@@ -959,24 +959,25 @@ textarea{
 
     .imagen-uno{
         margin-top: 10%;
-        margin-left: 25%;
-        width: 130%;
+        margin-left: 20%;
+        width: 85%;
     }
 
     .titulo-conocimientos{
-        font-size: 300%;
+        font-size: 200%;
     }
     
     .descripcion-c{
         font-size: 10px;
-        font-size: 120%;
+        font-size: 85%;
         height: 60%;
-        width: 90%;
+        width: 70%;
         font-weight: 400;
     }
 
     .container-conocimientos{
         display: flex;
+        
         
         
     }
@@ -1033,7 +1034,7 @@ textarea{
 
     .contenedor-cita{
         width: 100%;
-        height: 60%;
+        height: 10%;
     }
 
     .comilla{
@@ -1041,12 +1042,12 @@ textarea{
     }
 
     .cita{
-        font-size: 140%;
+        font-size: 100%;
         width: 70%;
     }
 
     .nombre-cita{
-        font-size: 150%;
+        font-size: 90%;
     }
 
     .container-proyectos{
@@ -1055,12 +1056,72 @@ textarea{
         
     }
 
+    .titulo-proyectos{
+        font-size: 200%;
+    }
+
+    .descripcion-proyectos{
+        font-size: 85%;
+        
+    }
+    
+    .descripcion-p{
+        width: 60%;
+    }
+
+    .card-proyecto-uno{
+        width: 60%;
+        height: 50%;
+    }
+
+    .texto-proyectos{
+        margin-bottom: 10%;
+    }
+
+    .card-proyecto-dos{
+        width: 60%;
+        height: 50%;
+    }
+
+    .card-proyecto-tres{
+        width: 60%;
+        height: 50%;
+    }
+
+
+
+    .card-proyecto-cuatro{
+        width: 60%;
+        height: 50%;
+    }
+
+    .card-proyecto-cinco{
+        width: 60%;
+        height: 50%;
+    }
+
+    .card-proyecto-seis{
+        width: 60%;
+        height: 50%;
+    }
+
+    .card-proyecto-siete{
+        width: 60%;
+        height: 50%;
+    }
+
+
+
     .container-contactame{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 25%;
+        
     }
+    
+    .contactame{
+        margin-top: 45%;
+    }     
 
     .container-formulario{
         margin-top: 10%;
@@ -1072,7 +1133,7 @@ textarea{
     }
 
     .container-footer{
-        margin-top: 25%;
+        margin-top: 50%;
         width: 100%;
         
     }
