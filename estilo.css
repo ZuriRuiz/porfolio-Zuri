@@ -19,6 +19,13 @@
     transition: 0.3s;
 }
 
+.header-nav:active{
+    color: #8338ec;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
+    transition: 0.3s;
+}
+
 .header-nav:hover{
     color: #8338ec;
     transform: scale(1.2);
@@ -627,7 +634,7 @@ li{
     background-color:white;
     border-radius: 5px solid black;
     margin-top: 15%;
-    height: 85vh;
+    
 }
 
 .contactame{
@@ -861,11 +868,17 @@ textarea{
 }
 
 .texto-footer{
-    margin-right: 20px;
+    margin-right: 60px;
     text-decoration: none;
     margin-top: 70px;
     font-weight: 400;
     color: white;
+}
+
+.texto-footer-dos{
+    margin-left: 42%;
+    margin-top: 5%;
+    font-weight: 700;
 }
 
 .container-iconos-footer{
@@ -985,6 +998,7 @@ textarea{
     .card-uno{
         
         width: 95%;
+        padding:
         
     }
 
@@ -1130,11 +1144,13 @@ textarea{
     
     .textarea{
         margin-bottom: 25%;
+        width: 5px;
     }
 
     .container-footer{
-        margin-top: 50%;
+        margin-top: 70%;
         width: 100%;
+
         
     }
 
