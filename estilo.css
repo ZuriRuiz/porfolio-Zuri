@@ -809,6 +809,7 @@ input{
     border-radius: 30px;
     border-color: #995cef;
     outline: none;
+    padding-left: 12px;
 }
 
 
@@ -816,6 +817,7 @@ textarea{
     border-radius: 15px;
     border-color: #995cef;
     outline: none;
+    padding-left: 10px;
 }
 
 .boton-enviar{
@@ -836,6 +838,7 @@ textarea{
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 600;
+   
 }
 
 .apellido-formulario{
@@ -855,6 +858,8 @@ textarea{
     margin-bottom: 10px;
     font-weight: 600;
 }
+
+
 
 .container-footer{
     display: flex;
@@ -923,6 +928,8 @@ textarea{
 .color-corazon{
     color: red;
 }
+
+
 
 @media screen and (max-width: 576px){
     header{
@@ -997,7 +1004,7 @@ textarea{
     .card-uno{
         
         width: 95%;
-        padding:
+        
         
     }
 
@@ -1146,28 +1153,16 @@ textarea{
         width: 5px;
     }
 
-    .container-footer{
-        margin-top: 70%;
-        width: 100%;
-
-        
-    }
-
-    .texto-footer{
-        margin-top: 15%;
-    }
-
-    .container-iconos-footer{
-        display: flex;
-        flex-direction: row;
-        
-    }
     
+    
+    
+
     .texto-footer-dos{
-        text-align: center;
-        font-weight: 800;
-        padding-top: 10%;
-        background-color: #8338ec;
+        margin-top: 10%;
+        margin-left: 20%;
     }
+
+    
+
 }
 
